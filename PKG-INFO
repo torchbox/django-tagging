@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: django-tagging
+Version: 0.3.4
+Summary: Generic tagging application for Django
+Home-page: https://code.google.com/p/django-tagging/
+Author: Jonathan Buchanan
+Author-email: jonathan.buchanan@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Utilities
