@@ -481,8 +481,8 @@ class TaggedItem(models.Model):
     """
     Holds the relationship between a tag and the item being tagged.
     """
-    tag = models.ForeignKey(Tag, verbose_name=_('tag'), related_name='items')
-    content_type = models.ForeignKey(ContentType, verbose_name=_('content type'))
+    tag = models.ForeignKey(Tag, verbose_name=_('tag'), related_name='items', on_delete=models.CASCADE)
+    content_type = models.ForeignKey(ContentType, verbose_name=_('content type'), on_delete=models.CASCADE)
     object_id = models.PositiveIntegerField(_('object id'), db_index=True)
     object = GenericForeignKey('content_type', 'object_id')
 
